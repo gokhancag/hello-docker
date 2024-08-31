@@ -8,7 +8,7 @@ def main():
 
 @app.route('/nasilsin')
 def hello():
-    return 'iyiyim, sen nasilsin??'
+    return 'iyiyim, sen nasilsin???'
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
